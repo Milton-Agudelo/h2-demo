@@ -1,0 +1,5 @@
+CREATE TABLE country (
+  id BIGINT AUTO_INCREMENT NOT NULL,
+  name VARCHAR(80) NOT NULL,
+  CONSTRAINT pk_country PRIMARY KEY (id)
+);
